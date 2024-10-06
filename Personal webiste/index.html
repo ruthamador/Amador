@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="d-flex justify-content-between align-items-center p-3 bg-light" >
+    <nav>
+        <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="nav-item"><a class="nav-link" href="#gallery">My Gallery</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="text-right">
+        <img src="c:\Users\rutha\Downloads\image.profile.jpg" alt="Profile Picture" class="profile-pic rounded-circle">
+    </div>
+</header>
+
+<main class="container">
+    <section id="home" class="text-center my-5">
+        <h1 style="color: rgb(118, 36, 36);">Welcome to My Page!</h1>
+        <h2 style="color: rgba(118, 36, 36, 0.918);">hello! I'm Ruth Amador, 17 years old,  
+            1st-year <br>BSIT student</h2>
+    </section>
+
+    <section id="about" class="my-5">
+        <h2>About Me</h2>
+        <p><h4>My hobbies:</h4>
+            <h5> Reading,</h5> When I was in my senior high I wanted to be a psychologist or lawyer, because
+             both psychology and law are fields that require extensive reading and comprehension of complex materials, I read a lot.
+             I also read manhwa the other term of manga that originated in korea.
+           <h5>Volley Ball,</h5> I was a volleyball player in high school, but I lacked skills like spiking and tossing. However, 
+           I play a lot whenever I have free time or when I'm not busy. It's just so much fun to play.
+        <p><h4>Ideal Self:</h4> Independent, I want to know what I'm capable of on my own. <br>    
+             Sucessful, I want to be financialy stable because I know how hard it is when you're family struggling financialy.<br> 
+             Professional, I wanted to be passionate for what I want, not just what I need. <br> 
+             Healthy, I wanted to be physically and mentally healthy.</p>
+    </section>
+
+    <section id="gallery" class="my-5">
+        <h2>My Gallery</h2>
+        <div class="row">
+            <div class="col-md-2"><img src="c:\Users\rutha\Downloads\ecbbad0c-bb35-4884-b806-88074b8ce103.jpg" alt="Image 1" class="img-fluid rounded"></div>
+            <div class="col-md-2"><img src="c:\Users\rutha\Downloads\8295ae67-c31e-4b36-b398-f51856e8d6d9.jpg" alt="Image 2" class="img-fluid rounded"></div>
+            <div class="col-md-2"><img src="c:\Users\rutha\Downloads\551cf674-d18d-458f-8e22-c878d3f2c030.jpg" alt="Image 3" class="img-fluid rounded"></div>
+            <div class="col-md-2"><img src="c:\Users\rutha\Downloads\7ac32982-305f-4a52-b7a3-aece7634ac2f.jpg" alt="Image 4" class="img-fluid rounded"></div>
+            <div class="col-md-2"><img src="c:\Users\rutha\Downloads\c2631620-57e8-4a68-b316-a4ecc3828845.jpg" alt="Image 5" class="img-fluid rounded"></div>
+        </div>
+        <video controls class="my-3" style="max-width: 50%;">
+            <source src="c:\Users\rutha\Downloads\9d5ced22-93ec-44cb-9662-1208ef266ea8.mp4" type="video/mp4">
+        </video>
+    </section>
+
+    <section id="contact" class="my-5">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Contact Number:</label>
+                <input type="tel" class="form-control" id="phone" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+</main>
+
+<footer class="text-center p-3 bg-light" >
+    <p style="color: hsl(0, 38%, 37%);">Follow me on social media:</p>
+    <a href="https://www.facebook.com/Paruths?mibextid=ZbWKwL" class="mr-3">Facebook</a>
+    <a href="https://www.instagram.com/rowts_rats?igsh=MTZsZjM5bzI0bW42cg==" class="mr-3">Instagram</a>
+    <a href="https://x.com/rutherity?t=OJluKCTAFWZKujM_8DCpyg&s=09" class="mr-3">Twitter</a>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(183, 146, 146);
+}
+
+.profile-pic {
+    width: 50px; /* Adjust as needed */
+    height: auto;
+    border-radius: 50%;
+    margin: 0;
+}
+footer {
+    bottom: 0;
+    width: 100%;
+}
